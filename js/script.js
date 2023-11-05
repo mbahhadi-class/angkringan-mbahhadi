@@ -53,7 +53,7 @@ itemDetailButtons.forEach((btn) => {
 document.querySelector('.modal .close-icon').onclick = () => {
     itemDetailModal.style.display = 'none';
     e.preventDefault();
-    // window.location.href = '#products';
+    window.location.href = '#products';
 }
 
 window.onclick = (e) => {
