@@ -38,7 +38,7 @@
             <a href="#" id="search-button">
                 <i data-feather="search"></i>
             </a>
-            <a href="#" id="shopping-cart">
+            <a href="#" id="shopping-cart-button">
                 <i data-feather="shopping-cart"></i>
             </a>
             <a href="#" id="hamburger-menu">
@@ -52,6 +52,21 @@
             <label for="search-box"><i data-feather="search"></i></label>
         </div>
         <!--   Seacrh Form end     -->
+
+        <!--   Shopping cart start     -->
+
+        <div class="shopping-cart">
+            <div class="cart-item">
+                <img src="img/products/02.jpg" alt="nasi kucing">
+                <div class="item-detail">
+                    <h3>Nasi Kucing</h3>
+                    <div class="item-price">IDR 30K</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+        </div>
+
+        <!--   Shopping cart end     -->
     </nav>
     <!-- Navbar End -->
     
@@ -152,8 +167,74 @@
             <div class="product-card">
                  <div class="product-icons">
                      <a href="#"><i data-feather="shopping-cart"></i></a>
-                     <a href="#"><i data-feather="eye"></i></a>
+                     <a href="#products" class="item-detail-button"><i data-feather="eye"></i></a>
                  </div>
+                <div class="product-image">
+                    <img src="img/products/02.jpg" alt="product 1">
+                </div>
+                <div class="product-content">
+                    <h3>Sego Kucings</h3>
+                    <div class="product-stars">
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                    </div>
+                    <div class="product-price">
+                        IDR 30K <span>IDR 55K</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="img/products/02.jpg" alt="product 1">
+                </div>
+                <div class="product-content">
+                    <h3>Sego Kucings</h3>
+                    <div class="product-stars">
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                    </div>
+                    <div class="product-price">
+                        IDR 30K <span>IDR 55K</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="img/products/02.jpg" alt="product 1">
+                </div>
+                <div class="product-content">
+                    <h3>Sego Kucings</h3>
+                    <div class="product-stars">
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                    </div>
+                    <div class="product-price">
+                        IDR 30K <span>IDR 55K</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+                </div>
                 <div class="product-image">
                     <img src="img/products/02.jpg" alt="product 1">
                 </div>
@@ -227,6 +308,35 @@
     </div>
 </footer>
     <!--  Footer End  -->
+
+<!--    Modal Box item detail start    -->
+    <div class="modal" id="item-detail-modal">
+        <div class="modal-container">
+            <a href="#" class="close-icon"><i data-feather="x"></i> </a>
+            <div class="modal-content">
+                <img src="img/products/02.jpg" alt="Nasi Kucing">
+                <div class="product-content">
+                    <h3>Nasi Kucing</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Consequatur distinctio facilis, molestias nulla reiciendis
+                        soluta ullam ut voluptatem? Commodi cumque fugiat quis sint
+                        ut voluptatem.</p>
+                    <div class="product-stars">
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                    </div>
+                    <div class="product-price">
+                        IDR 30K <span>IDR 55K</span>
+                    </div>
+                    <a href="#"><i data-feather="shopping-cart"></i><span>add to cart</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    Modal Box item detail end    -->
 
 
     <script>
